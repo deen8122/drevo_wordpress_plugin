@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06.02.2017, 3:33:43
+    Author     : Администратор
+*/
+.deen-folders-wrap a2:active {border: none;box-shadow: none;}
+.deen-folders-wrap a2 { color: #222;}
+.deen-folders-wrap a2:hover { text-decoration:  none;}
+.deen-folders-wrap {
+    background: #fff;margin: 0;padding: 10px;
+}
+.top-menu ul li {float: left;margin-left: 10px;}
+
+.deen-folders-wrap table2 {
+    border: 1px solid #ccc;
+    width: 100%;
+     border-collapse: collapse;
+    
+}
+.deen-folders-wrap table2 td{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    
+}
+.deen-folders-wrap table2 tr:first-child {
+   font-weight: bold;
+   padding: 4px 10px;
+}
+.deen-folders-wrap table2 tr:hover {background: papayawhip}
+.deen-folders-wrap table2 tr:first-child th{
+
+   padding: 4px 10px;
+}
+.deen-folders-wrap .rubric-list {
+    
+}
+.fd-submenu a { margin-right: 10px;}
+.fd-submenu {
+    float: right;
+    margin-top: 5px;
+}
+.fd-submenu2 {float: right}
+.fd-submenu2 a,.fd-icon {
+   display: block;
+   width: 30px;
+   height: 30px;
+   float: left;
+   margin-left: 5px;
+   overflow: hidden;
+   padding: 4px;
+   border:1px solid  #ccc; border-radius: 4px;
+   transition: 0.6s;
+   
+}
+.fd-submenu2 a:hover { background: #000;}
+.fd-icon:hover img,.fd-submenu2 a:hover img {filter: invert(100%);}
+.fd-icon img , .fd-submenu2 a img{
+    height: 100%;
+    
+}
+.form_botpanel {max-width: 500px;margin:    auto;}
+.form_botpanel  .btn { width:30%!important; margin-right: 10px;}
+.form_botpanel .btn-block {float: left;}
+
+.form-table tr:hover {background: initial;}
+.form_body  { border: 1px solid #ccc;}
+.dataTables_paginate { text-align: center}
+table.list2 { width:100%;}
+table.list2 td { padding: 3px 8px;border: 1px solid #ccc;}
+table.list2 tr:hover td { background: #ccc;}
+table.list2 th { padding: 3px 8px;border: 1px solid #ccc;    border: 1px solid #777777;background-color: #EAEAEA;}
+.form_botpanel .btn-block {margin-top:5px;}
+#bottomleft { position:  fixed; bottom: 14px;right: 0px}
+
+.fd-icon { background-size:  cover;}
+.fd-icon-config {background-image: url(../images/btn-config2.png)}
+.fd-icon-help {background-image: url(../images/btn-help.png)}
+.fd-icon:hover { opacity: 0.7;}
+.config-menu {}
+.fd-submenu .config-menu { margin: 5px;color:black;}
+.fd-submenu .active { font-weight:  bold;}
+.dop-func {margin-top: 20px; border-top: 2px solid #ccc; padding: 10px;}
+.disabled *,.disabled  { opacity:0.8;color:#ccc;}
+div.ls table td.ls_name {
+    font-weight: 800;
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    background-color: #E8EEF7;
+}
+
+div.ls table td {
+    border: 1px #7F9DB9 solid;
+}div.ls table td.ls_val {
+    font-weight: 100;
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    background-color: #F9FCFF;
+}
+.table-good-view {min-width: 600px;}
+.table-good-view td.ls_name { width: 200px;}
+span.form_field_require { color:  red; font-weight:  bolder;}
+input[type=checkbox] {
+    margin-top: -1px;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+.good-textarea { resize:  both;width:90%;}
+.ws i {display: none;}

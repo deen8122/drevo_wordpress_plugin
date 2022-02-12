@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script type="text/javascript" language="javascript" src="ajax.js"></script>
+</head>
+<body>
+	<form method="get">
+		<div>Адрес №1: <span id="par"></span> <span id="th"></span></div>
+		<div>Адрес №2: <span id="pa2"></span> <span id="t2"></span></div>
+		<div>Адрес №3: <span id="pa3"></span> <span id="t3"></span></div>
+		<div>Адрес №4: <span id="pa4"></span> <span id="t4"></span></div>
+		
+		<input type="submit">
+	</form>
+<!--	
+	selectAreaUpdate('id1','id2','path',parent,'name');
+	функция selectAreaUpdate создает select, создаваемый в id2, со значениями-детьми parent;
+	и момещает в id1 всех родителей включая parent;
+	конечное выбранное значение записывает в элемент с идентификатором name
+	путь xml с названием переменной-запроса = 'path'
+-->
+	<script>
+		selectAreaUpdate('par', 'th', '1.php?parent=', 0, 'addr1'); 
+		selectAreaUpdate('pa2', 't2', '1.php?parent=', 0, 'addr2'); 
+		selectAreaUpdate('pa3', 't3', '1.php?parent=', 0, 'addr3'); 
+		selectAreaUpdate('pa4', 't4', '1.php?parent=', 0, 'addr4'); 
+	</script>
+</body>
+</html>

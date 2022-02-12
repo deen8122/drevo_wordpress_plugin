@@ -1,0 +1,5 @@
+#AuthName "What do you want?"
+#AuthType Basic
+#AuthUserFile /var/www/irbissho/data/www/irbis-shop.ru/admin/.htpasswd
+#require valid-user
+php_value max_execution_time 600

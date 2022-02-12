@@ -1,0 +1,35 @@
+
+<div class="top-menu col-lg-12">
+    <div class="col-lg-9">
+       <ul class="nav nav-pills">{topmenu}</ul> 
+    </div>
+    
+    <div class="col-lg-3">
+                <form method='get' id="srchform" style="float: right">
+                    <input type='text' name='q' placeholder="Поиск" id='iq'/>  {link-all} 
+                    <input type='submit' value='Искать'/>
+                    <input type='hidden' name='pg' value='search'/>
+                    <input type='hidden' name='page' value='dn-rubrics'/>
+                    <input type='hidden' name='type' value='{type}'/>
+                    <input type='hidden' name='rubric_id' value='{rubric_id}'/>
+                </form>
+    </div>
+
+</div>
+<div style="clear:both;"></div>
+{JS}
+<div class="df-content">
+    <div  class="fd-submenu">
+        {submenu}
+        <div class="fd-submenu2">
+            {submenustd}
+        </div>
+    </div>
+    <div id="body">{body}</div>
+    <div id="bottomleft" >
+        <div id="version">Gen.: <b>{time} sec</b>; mysql-queries: <b>{queries}</b><br/><small>
+                Время на сервере: <b>{tnow}</b></small></div>
+    </div>
+</div>
+
+

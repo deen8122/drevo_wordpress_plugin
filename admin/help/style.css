@@ -1,0 +1,42 @@
+body {
+	background: #FFFFFE;
+	font:13px Arial;
+}
+
+/* links */
+a, a:visited {
+	text-decoration: none;
+	color: #2180BC;
+	background: inherit;
+}
+a:hover {
+	color: #88ac0b;
+	background: inherit;
+	text-decoration: underline;
+}
+div#top{
+	text-align:center;
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+}
+a#link_up{
+	color:#0000AA;
+	/* float:right; */
+}
+a#link_back{
+	color:#0000AA;
+	float:left;
+}
+a#link_fwd{
+	color:#0000AA;
+	float:right;
+}
+
+
+h1{
+	font-size:16px;
+	border-bottom:1px solid #EEEEEE;
+}
+h2{
+	font-size:15px;
+}
